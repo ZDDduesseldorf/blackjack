@@ -1,0 +1,16 @@
+[project]
+name = "blackjack"
+version = "0.1.0"
+description = "Test how to test"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
